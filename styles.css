@@ -1,0 +1,306 @@
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+  }
+  body{
+    background-image: url(bag.jpg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-size: 100% 100%;
+      /* background-color: rgb(230, 238, 245); */
+      min-height: 100vh;
+      width: 100vw;
+      overflow-x: hidden;
+  }
+  .navbar
+  {
+      background-color: rgb(98, 160, 6);
+      justify-content: space-between!important;
+  }
+  .search-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: auto;
+    }
+  .navbar-collapse {
+      flex-grow: 0;
+    }
+  .navbar-brand{
+      color: white!important;
+  }
+  .nav-link{
+      color: white!important;
+  }
+  .nav-link:hover{
+      color: white!important;
+      border: 1px solid white;
+  }
+  main{
+      width: 65%;
+      height: 520px;
+      margin: auto;
+      margin-top: 40px;
+      box-shadow: 3px 3px 3px gray;
+      position: relative;
+      overflow: hidden;
+  }
+  main:hover{
+    cursor: pointer;
+  }
+  .slide{
+      width: 100%;
+      height: 100%;
+      transition: 1s;
+      position: absolute;
+  }
+  .nav-right{
+      margin-left: auto;
+      position: absolute;
+      /* background: white; */
+      height: 35px;
+      width: 35px;
+      /* border-radius: 50%; */
+      margin: 378px;
+      transition: 0.4s ease;
+      border-top: 8px solid black;
+      border-left: 8px solid black;
+      
+      transform: rotate(135deg);
+      left: 1122px;
+      bottom: 173px;
+      cursor: pointer;
+      color: transparent;
+  }
+  .hide-text {
+      text-indent: -9999px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  /* .nav-right:hover{
+      box-shadow: 0px 0px 5px 5px rgb(31, 30, 30);
+  } */
+  .nav-left{
+      position: absolute;
+      /* background: white; */
+      height: 35px;
+      width: 35px;
+      /* border-radius: 50%; */
+      margin: 15px 0px;
+      transition: 0.4s ease;
+      border-top: 8px solid black;
+      border-left: 8px solid black;
+
+      transform: rotate(300deg);
+      left: 356px;
+      top: 340px;
+      bottom: 0px;
+      cursor: pointer;
+
+  }
+  .form-control {
+      width: 1286px; 
+      height: 40px; 
+    }
+    .heading1{
+          margin: 3px 776px;
+          padding: 3px 4px;
+        
+          /* font-family: 'Bebas Neue', sans-serif; */
+          /* /* font-family: 'Bree Serif', serif; */
+          /* font-family: 'Bungee Spice', cursive; */
+          font-family: 'Permanent Marker', cursive;
+          color: rgb(4, 43, 94);
+          font-size: 50px;
+    }
+    .heading2{
+      white-space: nowrap;
+      margin: 30px 732px;
+      padding: 3px 33px;
+    
+      /* font-family: 'Bebas Neue', sans-serif; */
+      /* /* font-family: 'Bree Serif', serif; */
+      /* font-family: 'Bungee Spice', cursive; */
+      font-family: 'Permanent Marker', cursive;
+      color: rgb(4, 43, 94);
+      font-size: 40px;
+  }
+    .container{
+      margin: 95px 290px;
+      padding: 16px 181px;
+      /* background-image: url(banner1.png); */
+      background-color: white;
+      height: 298px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .coloumn{
+      /* background-color: white; */
+      display: flex;
+      height: 155px;
+      width: 180px;
+      margin: -14px -152px;
+      gap: 150px;
+      cursor: pointer;
+      
+    }
+    .row{
+      /* background-color: white; */
+      content:"";
+      display: flex;
+      clear: both;
+      margin: 10px 10px;
+      /* padding: 3px 3px; */
+    }
+    .product1{
+      color: white;
+      display: block;
+      position: relative;
+      top: -209px;
+      left: 332px;
+      border: 1px solid rgb(182, 23, 23);
+      height: 28px;
+      width: 98px;
+      background-color: red;
+    }
+    .product2{
+      color: white;
+      display: block;
+      position: relative;
+      top: -239px;
+      left: 559px;
+      border: 1px solid rgb(182, 23, 23);
+      height: 28px;
+      width: 98px;
+      background-color: red
+    }
+    .product3{
+      color: white;
+      display: block;
+      position: relative;
+      top: -269px;
+      left: 871px;
+      border: 1px solid rgb(182, 23, 23);
+      height: 28px;
+      width: 98px;
+      background-color: red
+    }
+    .product4{
+      color: white;
+      display: block;
+      position: relative;
+      top: -297px;
+      left: 1160px;
+      border: 1px solid rgb(182, 23, 23);
+      height: 28px;
+      width: 98px;
+      background-color: red;
+    }
+    .product5{
+      color: white;
+      display: block;
+      position: relative;
+      top: -323px;
+      left: 1396px;
+      border: 1px solid rgb(182, 23, 23);
+      height: 28px;
+      width: 98px;
+      background-color: red;
+    }
+    .bio1{
+      color: rgb(0, 0, 0);
+      display: inline;
+      position: relative;
+      top: -303px;
+      left: 303px;
+      height: 10px;
+      width: 10px;
+    }
+    .bio2{
+      color: rgb(0, 0, 0);
+      display: block;
+      position: relative;
+      top: -345px;
+      left: 551px;
+      height: 10px;
+      width: 164px
+    }
+    .bio3{
+      color: rgb(0, 0, 0);
+      display: block;
+      position: relative;
+      top: -358px;
+      left: 838px;
+      height: 41px;
+      width: 164px;
+    }
+    .bio4{
+      color: rgb(0, 0, 0);
+      display: inline;
+      position: relative;
+      top: -401px;
+      left: 1119px;
+      height: 41px;
+      width: 164px;
+    }
+    .bio5{
+      color: rgb(0, 0, 0);
+      display: inline;
+      position: relative;
+      top: -442px;
+      left: 1358px
+    }
+  .allbio{
+    font-family: 'PT Serif Caption', serif;
+    text-align: 'center';
+  }
+  .brand1{
+    position: relative;
+    text-align: center;
+    margin: 51px 538px;
+    padding: 10px 10px;
+    top: -394px;
+    left: 16px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(4, 43, 94);
+    font-size: 50px
+  }
+  .brand{
+    text-align: center;
+    position: relative;
+    margin: 51px 538px;
+    padding: 10px 10px;
+    top: -394px;
+    left: 16px;
+    background-color: white;
+
+
+  }
+  .borderbox{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    top: -689px;
+    left: 284px;
+    height: 244px;
+    width: 1327px;
+    z-index: -1;
+  }
+    .TRENDING{
+      margin: 0px;
+      padding: 0px;
+      position: relative;
+      top: 318px;
+      left: 382px;
+      font-family: 'Permanent Marker', cursive;
+      color: rgb(4, 43, 94);
+    }
+    
+
+
+
+
+
+
